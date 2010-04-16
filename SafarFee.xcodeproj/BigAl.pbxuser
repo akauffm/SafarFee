@@ -1,0 +1,134 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A878A11D1173870D002321EF /* SafarFee */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* SafarFee */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* SafarFee */,
+		);
+		codeSenseManager = A878A12E11738726002321EF /* Code sense */;
+		executables = (
+			A878A11D1173870D002321EF /* SafarFee */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 293138448;
+			PBXWorkspaceStateSaveDate = 293138448;
+		};
+		perUserProjectItems = {
+			A83B5DD91177E56600A00F2E = A83B5DD91177E56600A00F2E /* PBXTextBookmark */;
+			A83B5DDA1177E56600A00F2E = A83B5DDA1177E56600A00F2E /* PBXTextBookmark */;
+			A8611DF81177E93900F0E01E = A8611DF81177E93900F0E01E /* PBXTextBookmark */;
+			A8611DF91177E93900F0E01E = A8611DF91177E93900F0E01E /* PBXTextBookmark */;
+		};
+		sourceControlManager = A878A12D11738726002321EF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1748, 4108}}";
+			sepNavSelRange = "{6793, 0}";
+			sepNavVisRange = "{5321, 1589}";
+			sepNavWindowFrame = "{{275, 180}, {1129, 778}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 650}}";
+			sepNavSelRange = "{630, 0}";
+			sepNavVisRange = "{0, 743}";
+			sepNavWindowFrame = "{{551, 116}, {1129, 778}}";
+		};
+	};
+	8D15AC270486D014006FF6A4 /* SafarFee */ = {
+		activeExec = 0;
+		executables = (
+			A878A11D1173870D002321EF /* SafarFee */,
+		);
+	};
+	A83B5DD91177E56600A00F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 159";
+		rLen = 0;
+		rLoc = 5373;
+		rType = 0;
+		vrLen = 1975;
+		vrLoc = 4567;
+	};
+	A83B5DDA1177E56600A00F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
+		name = "MyDocument.h: 32";
+		rLen = 0;
+		rLoc = 630;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 0;
+	};
+	A8611DF81177E93900F0E01E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 202";
+		rLen = 0;
+		rLoc = 6793;
+		rType = 0;
+		vrLen = 1589;
+		vrLoc = 5321;
+	};
+	A8611DF91177E93900F0E01E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
+		name = "MyDocument.h: 32";
+		rLen = 0;
+		rLoc = 630;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 0;
+	};
+	A878A11D1173870D002321EF /* SafarFee */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SafarFee;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A878A12D11738726002321EF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A878A12E11738726002321EF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

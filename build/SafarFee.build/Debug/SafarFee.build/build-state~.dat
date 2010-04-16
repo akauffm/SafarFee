@@ -1,0 +1,402 @@
+TSafarFee
+v7
+r0
+t293067983.095333
+cCheck dependencies
+cProcessInfoPlistFile "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Info.plist" SafarFee-Info.plist
+cCpResource build/Debug/SafarFee.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+cCopyStringsFile "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MainMenu.xib"
+cCpResource build/Debug/SafarFee.app/Contents/Resources/MyDocument.icns MyDocument.icns
+cCompileXIB "/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MyDocument.xib"
+cProcessPCH /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch.gch SafarFee_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/MyDocument.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/main.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIFormDataRequest.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIHTTPRequest.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIInputStream.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/MacOS/SafarFee" normal i386
+cTouch "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app"
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.h
+c000000004BB48C230000000000000737
+t1270123555
+s1847
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.m
+c000000004BB48C23000000000000262F
+t1270123555
+s9775
+i"ASIFormDataRequest.h"
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.h
+c000000004BB48C230000000000007F30
+t1270123555
+s32560
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.m
+c000000004BB8B8350000000000022606
+t1270396981
+s140806
+i"ASIHTTPRequest.h"
+i<zlib.h>
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequestConfig.h
+c000000004BB48C230000000000000832
+t1270123555
+s2098
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.h
+c000000004BB48C2300000000000003C9
+t1270123555
+s969
+i<Foundation/Foundation.h>
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.m
+c000000004BB48C230000000000000BF0
+t1270123555
+s3056
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/Credits.rtf
+c000000004BC34F8D00000000000001B4
+t1271091085
+s436
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/InfoPlist.strings
+c000000004BC34F8D000000000000002D
+t1271091085
+s45
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MainMenu.xib
+c000000004BC34F8D000000000002ADDC
+t1271091085
+s175580
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MyDocument.xib
+c000000004BB96B71000000000000D377
+t1270442865
+s54135
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.h
+c000000004BC788E200000000000002E7
+t1271367906
+s743
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.icns
+c000000004BB9787B00000000000519C1
+t1270446203
+s334273
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.m
+c000000004BC7A5140000000000002AEC
+t1271375124
+s10988
+i"MyDocument.h"
+i"ASIHTTPRequest.h"
+i"ASIFormDataRequest.h"
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/SafarFee_Prefix.pch
+c000000004BC34F8D0000000000000093
+t1271091085
+s147
+i<Cocoa/Cocoa.h>
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app
+t1271375183
+s102
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Info.plist
+t1271375162
+s1313
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/MacOS/SafarFee
+t1271375183
+s200696
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/PkgInfo
+t1271375162
+s8
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/Credits.rtf
+t1271375162
+s436
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1271375163
+s92
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/MainMenu.nib
+t1271375168
+s33284
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/MyDocument.nib
+t1271375168
+s8153
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/MyDocument.icns
+t1271375163
+s334273
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIFormDataRequest.o
+t1271375181
+s35220
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIHTTPRequest.o
+t1271375182
+s301864
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIInputStream.o
+t1271375181
+s23324
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/MyDocument.o
+t1271375181
+s45036
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/SafarFee.LinkFileList
+c000000004BC7A539000000000000023F
+t1271375161
+s575
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/main.o
+t1271375180
+s4860
+
+N/Al's/ITP/Spring 2010/Thesis/SafarFee/main.m
+c000000004BC34F8D00000000000000F3
+t1271091085
+s243
+i<Cocoa/Cocoa.h>
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004AB9AA2700000000000013E6
+t1253681703
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004A6A95620000000000001A78
+t1248499042
+s6776
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABBF0EF00000000000316AC
+t1253830895
+s202412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004A6E9EEC0000000000000957
+t1248763628
+s2391
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004ABBF0EF00000000000789DC
+t1253830895
+s494044
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/zlib.h
+c000000004A1F0FE200000000000102A5
+t1243549666
+s66213
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.1.2.3.dylib
+c000000004ABBF0FC0000000000005D2C
+t1253830908
+s23852
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch.gch
+t1271375180
+s38311916
+
+NSafarFee-Info.plist
+c000000004BC34F8D00000000000005CA
+t1271091085
+s1482
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293067961#293067962#0(0"0(0#1#0"2565005344#0"0#
+
+CCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIFormDataRequest.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293067980.774871
+e293067981.257802
+r1
+xCompileC
+xbuild/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIFormDataRequest.o
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.m293067980#293067981#0(0"0(0#0#58"/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.m2565005344#1503"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-generated-files.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-own-target-headers.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-all-target-headers.hmap" -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-project-headers.hmap" "-F/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/include" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources/i386" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources" -include /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch -c "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIFormDataRequest.m" -o "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIFormDataRequest.o"0#
+
+CCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIHTTPRequest.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293067981.249578
+e293067982.973720
+r1
+xCompileC
+xbuild/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIHTTPRequest.o
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.m293067981#293067982#0(0"0(0#0#54"/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.m2565005344#1495"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-generated-files.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-own-target-headers.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-all-target-headers.hmap" -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-project-headers.hmap" "-F/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/include" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources/i386" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources" -include /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch -c "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIHTTPRequest.m" -o "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIHTTPRequest.o"0#
+
+CCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIInputStream.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293067981.257959
+e293067981.679133
+r1
+xCompileC
+xbuild/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIInputStream.o
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.m293067981#293067981#0(0"0(0#0#54"/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.m2565005344#1495"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-generated-files.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-own-target-headers.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-all-target-headers.hmap" -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-project-headers.hmap" "-F/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/include" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources/i386" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources" -include /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch -c "/Al's/ITP/Spring 2010/Thesis/SafarFee/ASIInputStream.m" -o "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/ASIInputStream.o"0#
+
+CCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/MyDocument.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293067980.363520
+e293067981.249438
+r1
+xCompileC
+xbuild/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/MyDocument.o
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.m293067980#293067981#0(0"0(0#0#50"/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.m2565005344#1487"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-generated-files.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-own-target-headers.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-all-target-headers.hmap" -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-project-headers.hmap" "-F/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/include" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources/i386" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources" -include /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch -c "/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.m" -o "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/MyDocument.o"0#
+
+CCompileC build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/main.o "/Al's/ITP/Spring 2010/Thesis/SafarFee/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293067980.372111
+e293067980.774484
+r1
+xCompileC
+xbuild/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/main.o
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Al's/ITP/Spring 2010/Thesis/SafarFee/main.m293067980#293067980#0(0"0(0#0#44"/Al's/ITP/Spring 2010/Thesis/SafarFee/main.m2565005344#1475"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-generated-files.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-own-target-headers.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-all-target-headers.hmap" -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-project-headers.hmap" "-F/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/include" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources/i386" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources" -include /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch -c "/Al's/ITP/Spring 2010/Thesis/SafarFee/main.m" -o "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MainMenu.xib"
+s293067962.373941
+e293067968.880187
+r1
+xCompileXIB
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib293067962#293067968#0(0"0(0#0#64"/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MainMenu.xib2565005344#331"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/MainMenu.nib" "/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MainMenu.xib"0#
+
+CCompileXIB "/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MyDocument.xib"
+s293067963.501263
+e293067968.857542
+r1
+xCompileXIB
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MyDocument.xib
+lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib293067963#293067968#0(0"0(0#0#66"/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MyDocument.xib2565005344#335"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/MyDocument.nib" "/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/MyDocument.xib"0#
+
+CCopyStringsFile "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s293067962.138370
+e293067963.499646
+r1
+xCopyStringsFile
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings293067962#293067963#0(0"0(0#0#69"/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/InfoPlist.strings2565005344#368"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj"0#
+
+CCpResource build/Debug/SafarFee.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+s293067962.136552
+e293067962.373773
+r1
+xCpResource
+xbuild/Debug/SafarFee.app/Contents/Resources/English.lproj/Credits.rtf
+xEnglish.lproj/Credits.rtf
+lSLF07#2@30"Copy English.lproj/Credits.rtf293067962#293067962#0(0"0(0#0#63"/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/Credits.rtf4858560#359"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Al's/ITP/Spring 2010/Thesis/SafarFee/English.lproj/Credits.rtf" "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources/English.lproj"0#
+
+CCpResource build/Debug/SafarFee.app/Contents/Resources/MyDocument.icns MyDocument.icns
+s293067963.499785
+e293067963.641081
+r1
+xCpResource
+xbuild/Debug/SafarFee.app/Contents/Resources/MyDocument.icns
+xMyDocument.icns
+lSLF07#2@20"Copy MyDocument.icns293067963#293067963#0(0"0(0#0#53"/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.icns2565005344#335"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Al's/ITP/Spring 2010/Thesis/SafarFee/MyDocument.icns" "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Resources"0#
+
+CLd "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/MacOS/SafarFee" normal i386
+s293067982.974444
+e293067983.087125
+r1
+xLd
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/MacOS/SafarFee
+xnormal
+xi386
+lSLF07#2@91"Link /Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/MacOS/SafarFee293067982#293067983#0(0"0(0#0#0"2565005344#607"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" "-F/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" -filelist "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/Objects-normal/i386/SafarFee.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -lz.1.2.3 -framework SystemConfiguration -o "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/MacOS/SafarFee"0#
+
+CProcessInfoPlistFile "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Info.plist" SafarFee-Info.plist
+s293067962.005933
+e293067962.136416
+r1
+xProcessInfoPlistFile
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Info.plist
+xSafarFee-Info.plist
+lSLF07#2@27"Process SafarFee-Info.plist293067962#293067962#0(0"0(0#0#57"/Al's/ITP/Spring 2010/Thesis/SafarFee/SafarFee-Info.plist2565005344#316"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    builtin-infoPlistUtility SafarFee-Info.plist -genpkginfo "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch.gch SafarFee_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293067968.880875
+e293067980.363160
+r1
+xProcessPCH
+x/var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch.gch
+xSafarFee_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile SafarFee_Prefix.pch293067968#293067980#0(0"0(0#0#57"/Al's/ITP/Spring 2010/Thesis/SafarFee/SafarFee_Prefix.pch2565005344#1381"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-generated-files.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-own-target-headers.hmap" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-all-target-headers.hmap" -iquote "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/SafarFee-project-headers.hmap" "-F/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/include" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources/i386" "-I/Al's/ITP/Spring 2010/Thesis/SafarFee/build/SafarFee.build/Debug/SafarFee.build/DerivedSources" -c "/Al's/ITP/Spring 2010/Thesis/SafarFee/SafarFee_Prefix.pch" -o /var/folders/lw/lwakxNwFEd0tz+o31nEj9E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SafarFee_Prefix-drywwfqssumcmubovplhiklncppg/SafarFee_Prefix.pch.gch0#
+
+CTouch "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app"
+s293067983.087247
+e293067983.095254
+r1
+xTouch
+x/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app
+lSLF07#2@68"Touch /Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app293067983#293067983#0(0"0(0#0#0"2565005344#134"    cd "/Al's/ITP/Spring 2010/Thesis/SafarFee"    /usr/bin/touch -c "/Al's/ITP/Spring 2010/Thesis/SafarFee/build/Debug/SafarFee.app"0#
+
