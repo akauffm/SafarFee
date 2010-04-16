@@ -13,9 +13,10 @@
 
 @interface MyDocument : NSDocument
 {
-	
+	IBOutlet NSView  *view;
 	IBOutlet WebView *webView;
 	IBOutlet NSTextField *textField;
+	IBOutlet NSTextField *statusBar;
 	IBOutlet NSButton *backButton;
 	IBOutlet NSButton *forwardButton;
 	IBOutlet NSProgressIndicator *progress;
@@ -25,6 +26,7 @@
 	id somedelegate;
 	int count;
 	int loggedin;
+	NSTimer *timer;
 }
 
 - (IBAction)connectURL:(id)sender;

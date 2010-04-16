@@ -9,6 +9,8 @@
 #import "MyDocument.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
+#import "FeedbackViewController.h"
+#import "PurchaseViewController.h"
 
 @implementation MyDocument
 
@@ -54,14 +56,22 @@
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(viewFinishedLoading:) name:WebViewProgressFinishedNotification object:nil];
         // Add your subclass-specific initialization here.
         // If an error occurs here, send a [self release] message and return nil.
-		[NSTimer scheduledTimerWithTimeInterval:0.1
+		timer = [NSTimer scheduledTimerWithTimeInterval:0.1
 										 target: self
 									   selector:@selector(checkForLoading)
 									   userInfo:nil
 										repeats:YES];
-		
+		[timer retain];
     }
     return self;
+}
+
+- (void)shouldCloseWindowController:(NSWindowController *)windowController delegate:(id)delegate shouldCloseSelector:(SEL)shouldCloseSelector contextInfo:(void *)contextInfo
+{
+	[timer invalidate];
+	[timer release];
+	timer = nil;
+	[super shouldCloseWindowController:windowController delegate:delegate shouldCloseSelector:shouldCloseSelector contextInfo:contextInfo];
 }
 
 - (WebView*) webView
@@ -83,6 +93,7 @@
 
 - (void)windowControllerDidLoadNib:(NSWindowController *) aController
 {
+	NSLog(@"windowControllerDidLoadNib");
     [super windowControllerDidLoadNib:aController];
     // Add any code here that needs to be executed once the windowController has loaded the document's window.
 	
@@ -103,6 +114,22 @@
 	//Loads default window
 	//NSString *urlText = [NSString stringWithString:@"http://www.nytimes.com"];
 	//	[[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlText]]];
+	
+	if (loggedin != 1) {
+		ASIHTTPRequest *checkRequest = [[[ASIHTTPRequest alloc] initWithURL:[NSURL URLWithString: @"http://localhost/thesis_pre.php"]] autorelease];
+		[checkRequest setDelegate:self];
+		[checkRequest startSynchronous];
+		//this needs fixing: put error in status bar not in browser bar
+		if ([checkRequest error]) {	
+			[statusBar setStringValue:[[checkRequest error] localizedDescription]];
+		} 
+		else if ([[checkRequest responseString] intValue] == 1) {
+			loggedin = 1;
+			NSLog(@"Ok we logged in");
+			[webView setMainFrameURL:@"http://localhost/thesis_home.php"];
+		}
+		else [webView setMainFrameURL:@"http://localhost/thesis_login.php"];
+	}
 	
 	count = -1;
 	
@@ -148,20 +175,6 @@
 	
 	if (count == 0) {
 		
-		if (loggedin != 1) {
-			ASIHTTPRequest *checkRequest = [[[ASIHTTPRequest alloc] initWithURL:[NSURL URLWithString: @"http://localhost/thesis_pre.php"]] autorelease];
-			[checkRequest setDelegate:self];
-			[checkRequest startSynchronous];
-			//this needs fixing: put error in status bar not in browser bar
-			if ([checkRequest error]) {
-				[textField setStringValue:[[checkRequest error] localizedDescription]];
-			} 
-			if ([[checkRequest responseString] intValue] == 1) {
-				loggedin = 1;
-				NSLog(@"Ok we logged in");
-			}
-		}
-		
 		ASIHTTPRequest *therequest = [[[ASIHTTPRequest alloc] initWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://localhost/thesis_check.php?host=%@&url=%@",domain,theHost]]] autorelease];
 		
 		[therequest setDelegate:self];
@@ -169,10 +182,20 @@
 		
 		//this needs fixing: put error in status bar not in browser bar
 		if ([therequest error]) {
-			[textField setStringValue:[[therequest error] localizedDescription]];
-		} else if ([therequest responseString]) {
-			NSLog(@"Successfully checked for site ownership");
-			NSLog(@"%@",[NSString stringWithFormat:@"http://localhost/thesis_check.php?host=%@&url=%@",domain,theHost]);
+			[statusBar setStringValue:[[therequest error] localizedDescription]];
+			
+		} else if ([[therequest responseString] intValue] == 0) {
+			FeedbackViewController *viewController = [[FeedbackViewController alloc] initWithNibName:@"FeedbackView" bundle:nil];
+			[view addSubview:viewController.view];
+			[viewController.view setFrame:[webView frame]];			
+		} else if ([[therequest responseString] intValue] == 1) {
+			PurchaseViewController *viewController = [[PurchaseViewController alloc] initWithNibName:@"Purchase" bundle:nil];
+			[view addSubview:viewController.view];
+			[viewController.view setFrame:[webView frame]];			
+		} else if ([[therequest responseString] intValue] == 2) {
+			FeedbackViewController *viewController = [[FeedbackViewController alloc] initWithNibName:@"FeedbackView" bundle:nil];
+			[view addSubview:viewController.view];
+			[viewController.view setFrame:[webView frame]];			
 		}
 		
 		
@@ -180,7 +203,7 @@
 		[stopButton setEnabled: YES];
 		[reloadButton setTransparent: YES];
 		[reloadButton setEnabled: NO];
-		//		[reloadButton setImage:[NSImage imageNamed:@"NSStopProgressTemplate"]];
+		// [reloadButton setImage:[NSImage imageNamed:@"NSStopProgressTemplate"]];
 		
 		count++;
 	}
